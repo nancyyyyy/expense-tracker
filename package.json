@@ -1,0 +1,26 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "web app for tracking expenses",
+  "homepage": "https://github.com/nancyyyyy/expense-tracker#readme",
+  "bugs": {
+    "url": "https://github.com/nancyyyyy/expense-tracker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nancyyyyy/expense-tracker.git"
+  },
+  "license": "ISC",
+  "author": "Nancy",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
