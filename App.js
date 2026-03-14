@@ -1,10 +1,7 @@
-
-
 const App = () =>{
-    return <h1>Hi</h1>
+    return <div>Hi</div>
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App/>);
 
