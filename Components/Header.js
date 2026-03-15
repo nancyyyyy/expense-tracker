@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Header = () =>{
-    return <div>
+    return <>
         <div className="header"><h2>Expense Tracker</h2> </div>
-    </div>
+    </>
 }
 
 export default Header;

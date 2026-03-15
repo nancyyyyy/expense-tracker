@@ -1,5 +1,55 @@
-.header {
+.main-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.header {
+    font-size: 3rem;
+    margin:0;
+}
+
+
+.balance-container{
+    border:2px solid black;
+    margin-left:-15px;
+    padding:1rem;
+
+}
+
+.balance-heading{
+    font-size: 1.5rem;
+}
+.balance-amount{
+    font-size: 3rem;
+}
+
+.income-expense-container {
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+    margin:1rem;
+
+}
+
+
+.income-container{
+    border-right: 1px solid black;
+}
+.income-container, .expense-container {
+    padding: 0 1rem;
+    flex:1;
+}
+
+.expense-amount{
+    color: red;
+}
+
+.income-amount {
+    color:green;
+}
+.add-transaction-section{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid black; */
 }
