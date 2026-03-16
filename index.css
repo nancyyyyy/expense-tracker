@@ -235,9 +235,18 @@ body {
     border-left-color: #ff6a00;
 }
 
+.transaction-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+}
+
 .transaction-text {
     font-weight: 600;
     color: #333;
+    flex: 1;
 }
 
 .transaction-amount {
@@ -251,4 +260,31 @@ body {
 
 .transaction-amount.expense {
     color: #ee0979;
+}
+
+.delete-btn {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    flex-shrink: 0;
+    font-weight: 700;
+}
+
+.delete-btn:hover {
+    background: #ff5252;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+.delete-btn:active {
+    transform: scale(0.95);
 }

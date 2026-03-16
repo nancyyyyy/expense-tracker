@@ -13,6 +13,11 @@ const App = () =>{
  const addTransaction = (transaction)=>{
     setTransactions([...transactions, transaction]);
  }
+
+const deleteTransaction=(id) =>{
+    return setTransactions(transactions.filter((t)=>t.id != id));
+}
+
  console.log(transactions);
 
     return <div className="main-container">
@@ -20,7 +25,7 @@ const App = () =>{
         <Balance transactions={transactions}/>
         <TotalIncomeExpense transactions={transactions}/>
         <AddTransaction addTransaction={addTransaction}/>
-        <TransactionHistory transactions={transactions} />
+        <TransactionHistory transactions={transactions} deleteTransaction={deleteTransaction} />
     </div>
 }
 
