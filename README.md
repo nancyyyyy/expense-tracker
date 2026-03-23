@@ -1,14 +1,5 @@
 # expense-tracker
 web app for tracking expenses
 
+Working URL - expense-tracker-9m4yah45c-nancyyyyys-projects.vercel.app
 
-#Components
--Header
--Body
-    -Current balance
-    -income-expense difference
-    -History of transactions
-    -Add new transaction section
-        -text(expanse name)
-        -amount
-        -add transaction button
